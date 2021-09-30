@@ -1,0 +1,17 @@
+{
+  "name": "test_chordpro",
+  "version": "1.0.0",
+  "description": "Format Chordpro Files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chordsheetjs": "^4.7.1",
+    "jquery": "^3.6.0",
+    "requirejs": "^2.3.6",
+    "simplechordpro": "^1.0.1"
+  }
+}

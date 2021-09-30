@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background: black;
+}
+
+#view {
+    height: 500px;
+    width: 1000px;
+    overflow-y: auto;
+    background: white;
+    border-radius: 0.5%;
+    margin-left: 2%;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+#view::-webkit-scrollbar {
+    display: none;
+}
+
+.chord {
+    padding-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+}
+
+.lyrics {
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+}
